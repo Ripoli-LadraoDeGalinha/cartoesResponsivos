@@ -35,7 +35,18 @@ button{
     padding: 10px;
     border-radius: 15px;
     background-color: dodgerblue;
+    border-color: rgb(2, 25, 153);
 }
-#info-tinky{
-    display: none;
+.info-extra {
+    display: none; /* Esconde por padrão */
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    width: 100%;
+}
+
+
+.info-extra.mostrar {
+    display: block;
 }
